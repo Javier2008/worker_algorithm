@@ -1,0 +1,8 @@
+{
+  "param_class": "scale_param.py/ScaleParam",
+  "role": {
+    "guest|host": {
+      "program": "feature_scale.py/Scale"
+    }
+  }
+}

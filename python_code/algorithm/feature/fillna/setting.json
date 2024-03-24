@@ -1,0 +1,8 @@
+{
+  "param_class": "fillna_param.py/FillNaParam",
+  "role": {
+    "host | guest": {
+      "program": "fillna.py/FillNa"
+    }
+  }
+}

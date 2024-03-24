@@ -1,0 +1,11 @@
+{
+  "param_class": "statistics_param.py/StatisticsParam",
+  "role": {
+    "host": {
+      "program": "data_statistics.py/DataStatistics"
+    },
+    "guest": {
+      "program": "data_statistics.py/DataStatistics"
+    }
+  }
+}

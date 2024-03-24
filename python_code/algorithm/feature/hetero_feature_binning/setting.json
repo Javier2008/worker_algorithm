@@ -1,0 +1,11 @@
+{
+  "param_class": "param.py/HeteroFeatureBinningParam",
+  "role": {
+    "host": {
+      "program": "hetero_binning_host.py/HeteroFeatureBinningHost"
+    },
+    "guest": {
+      "program": "hetero_binning_guest.py/HeteroFeatureBinningGuest"
+    }
+  }
+}

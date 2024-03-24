@@ -1,0 +1,8 @@
+{
+  "param_class": "reader.py/ReaderParam",
+  "role": {
+    "host|guest": {
+      "program": "reader.py/Reader"
+    }
+  }
+}

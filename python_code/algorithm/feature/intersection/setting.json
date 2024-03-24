@@ -1,0 +1,11 @@
+{
+  "param_class": "param.py/IntersectParam",
+  "role": {
+    "host": {
+      "program": "intersect_model.py/IntersectHost"
+    },
+    "guest": {
+      "program": "intersect_model.py/IntersectGuest"
+    }
+  }
+}

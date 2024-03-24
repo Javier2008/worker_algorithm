@@ -1,0 +1,8 @@
+{
+  "param_class": "dataio_param.py/DataIOParam",
+  "role": {
+    "guest|host": {
+      "program": "data_io.py/DataIO"
+    }
+  }
+}

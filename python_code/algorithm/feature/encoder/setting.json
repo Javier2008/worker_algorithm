@@ -1,0 +1,8 @@
+{
+  "param_class": "onehot_encoder_param.py/OneHotEncoderParam",
+  "role": {
+    "guest|host": {
+      "program": "one_hot_encoder.py/OneHotEncoder"
+    }
+  }
+}

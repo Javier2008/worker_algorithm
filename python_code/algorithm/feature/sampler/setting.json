@@ -1,0 +1,8 @@
+{
+  "param_class": "sampler_param.py/SampleParam",
+  "role": {
+    "host|guest": {
+      "program": "sampler.py/Sampler"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "intersect_method": "rsa",
+  "random_bit": 1024,
+  "sync_intersect_ids": true
+}

@@ -1,0 +1,11 @@
+{
+  "param_class": "vertlr/param.py/VertLogisticLRParam",
+  "role": {
+    "host": {
+      "program": "vertlr/vert_lr_host.py/VertLRHost"
+    },
+    "guest": {
+      "program": "vertlr/vert_lr_guest.py/VertLRGuest"
+    }
+  }
+}

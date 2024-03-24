@@ -1,0 +1,8 @@
+{
+  "param_class": "param.py/FeatureSelectionParam",
+  "role": {
+    "guest|host": {
+      "program": "base_feature_selection.py/BaseHeteroFeatureSelection"
+    }
+  }
+}

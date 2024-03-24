@@ -1,0 +1,58 @@
+[ERROR] [2022-10-14 16:23:49,301] [Server] [14261:4629020160] - [task_executor._run] [line:213]: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+Traceback (most recent call last):
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 162, in _run
+    cpn_output = run_object.run(cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 235, in run
+    self._run(cpn_input=cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 310, in _run
+    this_data_output = func(*real_param)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/intersect_model.py", line 231, in fit
+    self.intersect_ids = self.intersection_obj.run_intersect(intersect_data)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_base.py", line 130, in run_intersect
+    id_list_intersect_cipher_cipher = self.get_intersect_doubly_encrypted_id(data_instances)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 122, in get_intersect_doubly_encrypted_id
+    id_list_remote_first = self._exchange_id_list(self.id_list_local_first)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 47, in _exchange_id_list
+    id_list_remote = self.transfer_variable.id_ciphertext_list_exchange_h2g.get(idx=-1)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 307, in get
+    rtn = self.get_parties(parties=src_parties, suffix=suffix)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 240, in get_parties
+    rtn = session.federation.get(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/standalone/_federation.py", line 49, in get
+    rtn = self._federation.get(name=name, tag=tag, parties=parties)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 593, in get
+    table: Table = _load_table(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 705, in _load_table
+    raise RuntimeError(f"table not exist: name={name}, namespace={namespace}")
+RuntimeError: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+[ERROR] [2022-10-14 16:23:49,301] [Server] [14261:4629020160] - [task_executor.run] [line:74]: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+Traceback (most recent call last):
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 72, in run
+    result = self._run()
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 214, in _run
+    raise e
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 162, in _run
+    cpn_output = run_object.run(cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 235, in run
+    self._run(cpn_input=cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 310, in _run
+    this_data_output = func(*real_param)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/intersect_model.py", line 231, in fit
+    self.intersect_ids = self.intersection_obj.run_intersect(intersect_data)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_base.py", line 130, in run_intersect
+    id_list_intersect_cipher_cipher = self.get_intersect_doubly_encrypted_id(data_instances)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 122, in get_intersect_doubly_encrypted_id
+    id_list_remote_first = self._exchange_id_list(self.id_list_local_first)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 47, in _exchange_id_list
+    id_list_remote = self.transfer_variable.id_ciphertext_list_exchange_h2g.get(idx=-1)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 307, in get
+    rtn = self.get_parties(parties=src_parties, suffix=suffix)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 240, in get_parties
+    rtn = session.federation.get(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/standalone/_federation.py", line 49, in get
+    rtn = self._federation.get(name=name, tag=tag, parties=parties)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 593, in get
+    table: Table = _load_table(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 705, in _load_table
+    raise RuntimeError(f"table not exist: name={name}, namespace={namespace}")
+RuntimeError: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122

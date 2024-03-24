@@ -1,0 +1,116 @@
+[INFO] [2022-10-14 16:23:46,347] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultCacheDTO
+[INFO] [2022-10-14 16:23:46,348] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultCacheDTO
+[INFO] [2022-10-14 16:23:46,348] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultDataInfoDTO
+[INFO] [2022-10-14 16:23:46,349] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultDataInfoDTO
+[INFO] [2022-10-14 16:23:46,349] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultInfoDTO
+[INFO] [2022-10-14 16:23:46,350] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultInfoDTO
+[INFO] [2022-10-14 16:23:46,350] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultSummary
+[INFO] [2022-10-14 16:23:46,351] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultSummary
+[INFO] [2022-10-14 16:23:46,351] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table SessionRecord
+[INFO] [2022-10-14 16:23:46,351] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: SessionRecord
+[INFO] [2022-10-14 16:23:46,352] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table StorageConnectorModel
+[INFO] [2022-10-14 16:23:46,352] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: StorageConnectorModel
+[INFO] [2022-10-14 16:23:46,352] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table StorageTableMetaModel
+[INFO] [2022-10-14 16:23:46,353] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: StorageTableMetaModel
+[INFO] [2022-10-14 16:23:46,353] [Server] [14261:4629020160] - [guest.<module>] [line:389]: safasfasfa
+[INFO] [2022-10-14 16:23:46,353] [Server] [14261:4629020160] - [task_executor._run] [line:104]: start work
+[INFO] [2022-10-14 16:23:46,353] [Server] [14261:4629020160] - [task_executor._run] [line:105]: Start exec task intersection_0 1234567812_intersection_0 about guest 9999 
+[INFO] [2022-10-14 16:23:46,380] [Server] [14261:4629020160] - [_session.__init__] [line:67]: create manager session 85b7242a-4b99-11ed-8ae2-acde48001122
+[INFO] [2022-10-14 16:23:46,380] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultCacheDTO
+[INFO] [2022-10-14 16:23:46,381] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultCacheDTO
+[INFO] [2022-10-14 16:23:46,381] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultDataInfoDTO
+[INFO] [2022-10-14 16:23:46,382] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultDataInfoDTO
+[INFO] [2022-10-14 16:23:46,382] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultInfoDTO
+[INFO] [2022-10-14 16:23:46,383] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultInfoDTO
+[INFO] [2022-10-14 16:23:46,383] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table ResultSummary
+[INFO] [2022-10-14 16:23:46,384] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: ResultSummary
+[INFO] [2022-10-14 16:23:46,384] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table SessionRecord
+[INFO] [2022-10-14 16:23:46,384] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: SessionRecord
+[INFO] [2022-10-14 16:23:46,384] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table StorageConnectorModel
+[INFO] [2022-10-14 16:23:46,385] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: StorageConnectorModel
+[INFO] [2022-10-14 16:23:46,385] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:85]: start create table StorageTableMetaModel
+[INFO] [2022-10-14 16:23:46,386] [Server] [14261:4629020160] - [db_models.init_database_tables] [line:88]: create table success: StorageTableMetaModel
+[INFO] [2022-10-14 16:23:46,386] [Server] [14261:4629020160] - [_session.save_record] [line:316]: try to save session record for manager 85b7242a-4b99-11ed-8ae2-acde48001122, computing STANDALONE 85b7242a-4b99-11ed-8ae2-acde48001122_computing_85b80340-4b99-11ed-8ae2-acde48001122
+[INFO] [2022-10-14 16:23:46,388] [Server] [14261:4629020160] - [_session.save_record] [line:335]: save session record for manager 85b7242a-4b99-11ed-8ae2-acde48001122, computing STANDALONE 85b7242a-4b99-11ed-8ae2-acde48001122_computing_85b80340-4b99-11ed-8ae2-acde48001122 successfully
+[INFO] [2022-10-14 16:23:46,417] [Server] [14261:4629020160] - [result_data_manager.read_data_table] [line:64]: Read data table result_data_1234567812_dataio_0 11b8f1404b9711eda1b3acde48001122 for task 1234567812_dataio_0
+[INFO] [2022-10-14 16:23:46,421] [Server] [14261:4629020160] - [task_executor.get_task_data_args] [line:345]: load computing table use 1
+[INFO] [2022-10-14 16:23:46,760] [Server] [14261:4629020160] - [task_executor._run] [line:141]: task input args {'data': {'dataio_0': {'data': [<common.computing.standalone._table.Table object at 0x11df1e790>]}}}
+[INFO] [2022-10-14 16:23:46,866] [Server] [14261:4629020160] - [intersect_model.init_intersect_method] [line:63]: Using dh intersection, role is guest
+[INFO] [2022-10-14 16:23:46,868] [Server] [14261:4629020160] - [dh_intersect_base.run_intersect] [line:129]: Start DH Intersection
+[INFO] [2022-10-14 16:23:46,995] [Server] [14261:4629020160] - [dh_intersect_guest._sync_commutative_cipher_public_knowledge] [line:38]: sent commutative cipher public knowledge to 0th host
+[INFO] [2022-10-14 16:23:46,995] [Server] [14261:4629020160] - [dh_intersect_guest.get_intersect_doubly_encrypted_id] [line:113]: commutative cipher key generated
+[INFO] [2022-10-14 16:23:49,125] [Server] [14261:4629020160] - [dh_intersect_guest.get_intersect_doubly_encrypted_id] [line:121]: encrypted guest id for the 1st time
+[INFO] [2022-10-14 16:23:49,294] [Server] [14261:4629020160] - [dh_intersect_guest._exchange_id_list] [line:46]: sent id 1st ciphertext list to 0 th host
+[ERROR] [2022-10-14 16:23:49,301] [Server] [14261:4629020160] - [task_executor._run] [line:213]: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+Traceback (most recent call last):
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 162, in _run
+    cpn_output = run_object.run(cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 235, in run
+    self._run(cpn_input=cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 310, in _run
+    this_data_output = func(*real_param)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/intersect_model.py", line 231, in fit
+    self.intersect_ids = self.intersection_obj.run_intersect(intersect_data)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_base.py", line 130, in run_intersect
+    id_list_intersect_cipher_cipher = self.get_intersect_doubly_encrypted_id(data_instances)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 122, in get_intersect_doubly_encrypted_id
+    id_list_remote_first = self._exchange_id_list(self.id_list_local_first)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 47, in _exchange_id_list
+    id_list_remote = self.transfer_variable.id_ciphertext_list_exchange_h2g.get(idx=-1)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 307, in get
+    rtn = self.get_parties(parties=src_parties, suffix=suffix)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 240, in get_parties
+    rtn = session.federation.get(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/standalone/_federation.py", line 49, in get
+    rtn = self._federation.get(name=name, tag=tag, parties=parties)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 593, in get
+    table: Table = _load_table(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 705, in _load_table
+    raise RuntimeError(f"table not exist: name={name}, namespace={namespace}")
+RuntimeError: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+[ERROR] [2022-10-14 16:23:49,301] [Server] [14261:4629020160] - [task_executor.run] [line:74]: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+Traceback (most recent call last):
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 72, in run
+    result = self._run()
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 214, in _run
+    raise e
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/worker2/task_executor.py", line 162, in _run
+    cpn_output = run_object.run(cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 235, in run
+    self._run(cpn_input=cpn_input)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/model_base.py", line 310, in _run
+    this_data_output = func(*real_param)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/intersect_model.py", line 231, in fit
+    self.intersect_ids = self.intersection_obj.run_intersect(intersect_data)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_base.py", line 130, in run_intersect
+    id_list_intersect_cipher_cipher = self.get_intersect_doubly_encrypted_id(data_instances)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 122, in get_intersect_doubly_encrypted_id
+    id_list_remote_first = self._exchange_id_list(self.id_list_local_first)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/algorithm/feature/intersection/dh_intersect/dh_intersect_guest.py", line 47, in _exchange_id_list
+    id_list_remote = self.transfer_variable.id_ciphertext_list_exchange_h2g.get(idx=-1)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 307, in get
+    rtn = self.get_parties(parties=src_parties, suffix=suffix)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/transfer_variable.py", line 240, in get_parties
+    rtn = session.federation.get(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/federation/standalone/_federation.py", line 49, in get
+    rtn = self._federation.get(name=name, tag=tag, parties=parties)
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 593, in get
+    table: Table = _load_table(
+  File "/Users/yuyunfu/code/Python/worker_algorithm/python_code/common/_standalone.py", line 705, in _load_table
+    raise RuntimeError(f"table not exist: name={name}, namespace={namespace}")
+RuntimeError: table not exist: name=829cccc4-4b97-11ed-b6bf-acde48001122, namespace=7c7df548-4b97-11ed-b6bf-acde48001122_computing_7c7eea3e-4b97-11ed-b6bf-acde48001122
+[INFO] [2022-10-14 16:23:49,301] [Server] [14261:4629020160] - [task_executor.run] [line:78]: Finish task executor, pid: 14261, elapsed: 2948 ms
+[INFO] [2022-10-14 16:26:21,603] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table ResultCacheDTO
+[INFO] [2022-10-14 16:26:21,607] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: ResultCacheDTO
+[INFO] [2022-10-14 16:26:21,607] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table ResultDataInfoDTO
+[INFO] [2022-10-14 16:26:21,609] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: ResultDataInfoDTO
+[INFO] [2022-10-14 16:26:21,610] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table ResultInfoDTO
+[INFO] [2022-10-14 16:26:21,611] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: ResultInfoDTO
+[INFO] [2022-10-14 16:26:21,612] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table ResultSummary
+[INFO] [2022-10-14 16:26:21,614] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: ResultSummary
+[INFO] [2022-10-14 16:26:21,614] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table SessionRecord
+[INFO] [2022-10-14 16:26:21,616] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: SessionRecord
+[INFO] [2022-10-14 16:26:21,616] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table StorageConnectorModel
+[INFO] [2022-10-14 16:26:21,617] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: StorageConnectorModel
+[INFO] [2022-10-14 16:26:21,617] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:85]: start create table StorageTableMetaModel
+[INFO] [2022-10-14 16:26:21,620] [Server] [14299:4489960960] - [db_models.init_database_tables] [line:88]: create table success: StorageTableMetaModel
